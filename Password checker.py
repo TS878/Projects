@@ -19,9 +19,6 @@ def strength_checker(text, points):
         for i in list:
             if i.search(text) != None:
                 points += 1
-            
-
-
     return points
 
 
